@@ -28,7 +28,7 @@ In order to make changes on you computer, you need to clone this fork in your te
 
 To track changes that have been made to the master branch of the project you can "pull" them from github.  This can be done with the following command in terminal: git pull [REMOTENAME] [BRANCHNAME];.  After running that code you can see what other coders have pushed to the project since your last pull.
 
-It's helpful to have both local and remote copies of these projects and the changes you've made for the sake of collaboration.  These also serve as a backup files.
+It's helpful to have both local and remote copies of these projects and the changes you've made for the sake of collaboration.  These also serve as backup files.
 
 I've learned a lot about git and github over the past couple of days and it's all pretty new to me.  I am by no means an expert.  I hope this was all clear enough though!  Thanks for reading!
 
