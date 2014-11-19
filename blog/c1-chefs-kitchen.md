@@ -4,7 +4,7 @@ Week 1
 
 11/19/2014
 
-After watching the fireside chat with Shereef, I have to say, everything which originally attracted me to Dev Bootcamp has been reaffirmed.  I was originally drawn to Dev Bootcamp because of their strong emphasis on engineering empathy, relationship building and ethics (among other things).  Watching the fireside video assured me that this is the most important aspect of the program for DBC founders and instructors as well.  Awesome!
+After watching the fireside chat with Shereef, I have to say, everything which originally attracted me to Dev Bootcamp has been reaffirmed.  I was originally drawn to Dev Bootcamp because of their strong emphasis on engineering empathy, relationship building and ethics (among other things).  Watching the fireside video assured me that these are the most important aspects of the program for DBC founders and instructors as well.  Awesome!
 
 There is no doubt in my mind that anyone can teach themselves how to use Rails.  Human beings are amazing creatures.  Time and time again they will surprise you with how much knowledge they can actually cram into those tiny little skulls of theirs!  That being said: a true craftsman goes beyond just these technical skills.
 
