@@ -26,7 +26,7 @@ So git is especially useful in helping users to keep track of changes they've ma
 
 In order to make changes on you computer, you need to clone this fork in your terminal, using git.  That will give you a local (on your hard drive) copy of the project so you can open it in Sublime and mess around a bit.  Any changes made can be saved as commits.  If you'd like to view all the changes made to a file, the commit history is available to you by typing: git log; in the proper directory.  To add your commits to the main project you'll have to "push" it back to github.  This is done using: git push [REMOTENAME] [BRANCHNAME];.  To check your remote names, you can type: git remote -v;.
 
-To track changes that have been made to the master branch of the project you can "pull" them from github with a "pull request".  This can be done with the following command in terminal: git pull [REMOTENAME] [BRANCHNAME];.  After running that code you can see what other coders have pushed to the project since your last pull.
+To track changes that have been made to the master branch of the project you can "pull" them from github.  This can be done with the following command in terminal: git pull [REMOTENAME] [BRANCHNAME];.  After running that code you can see what other coders have pushed to the project since your last pull.
 
 It's helpful to have both local and remote copies of these projects and the changes you've made for the sake of collaboration.  These also serve as a backup files.
 
