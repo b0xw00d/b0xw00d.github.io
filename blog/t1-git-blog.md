@@ -6,7 +6,7 @@ Week 1
 
 This week I learned all about git and github at DBC.  Both are useful version control tools for web developers.  I'll do my best to clearly share what I've learned with you here.  Bear with me now!
 
-I'll start with version control.  Version control is a system for storing and sorting different iterations (versions) of a project.  This is helpful because it allows multiple people to be working on their own copies of the same files.  It also allows users to save older versions of code which they can revert back to, if needed.  Basically, if a mistake is made that breaks the project there are earlier, working versions of the program.
+I'll start with version control.  Version control is a system for storing and sorting different iterations of a project.  This is helpful because it allows multiple people to be working on their own copies of the same files.  It also allows users to save older versions of code which they can revert back to, if needed.  Basically, if a mistake is made that breaks the project there are earlier, working versions of the program.
 
 So git is especially useful in helping users to keep track of changes they've made to a project!  Great!  Now how do you use it?  I started by forking the project I wanted to use into my own github profile, then cloning it to my computer.  Forking a project is, essentially, making an exact copy of it that lives on your profile.  That way you can make changes without affecting the original files.  This fork will live on the web (your github profile).
 
