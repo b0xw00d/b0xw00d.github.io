@@ -1,0 +1,61 @@
+html{
+  font-family: "Verdana";
+  background-color: #00091f;
+}
+a{
+  color: white;
+}
+
+td {
+  background-color: black;
+  border: solid 1px;
+  padding-bottom: 10px;
+  padding: 2px 20px 2px 20px;
+  display: block-inline;
+  width: 320px;
+  text-align: center;
+}
+#picture{
+  background-image: url("../imgs/demon_chase.jpg");
+  border-radius: 20;
+  height: 250px;
+  width: 14%;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#social{
+  background-image: url("../imgs/Pseudoceros.jpg");
+  color: white;
+  text-align: center;
+  width: 14%;
+  height: 150px;
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+#about{
+  background-image: url("../imgs/Cliones.jpg");
+  overflow: scroll;
+  color: white;
+  float: right;
+  height: 500px;
+  width: 84%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 10px 10px 10px;
+}
+#foot{
+  border: solid 1px black;
+  background-image: url("../imgs/come_to_daddy.jpg");
+  color: white;
+  height: 200px;
+  overflow: scroll;
+  width: 100%;
+  display: block;
+  float: right;
+  text-align: center;
+}
+span{
+  color: blue;
+}
