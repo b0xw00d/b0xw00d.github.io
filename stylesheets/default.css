@@ -61,14 +61,18 @@ span{
 }
 
 .blog_index{
-  background-image: url("../chase_method_grab.jpg");
+  display: inline-block;
+  background-image: url("../imgs/chase_method_grab.jpg");
   color: white;
-  width: 50%;
-  height: 100%;
+  width: 40%;
+  height: 400px;
+  margin-left: 5%;
+  text-align: center;
 }
 
 .home_button{
   background-color: black;
   color: white;
   width: 100%;
+  text-align: center;
 }
