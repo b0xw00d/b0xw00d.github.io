@@ -59,3 +59,16 @@ td {
 span{
   color: blue;
 }
+
+.blog_index{
+  background-image: url("../chase_method_grab.jpg");
+  color: white;
+  width: 50%;
+  height: 100%;
+}
+
+.home_button{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
