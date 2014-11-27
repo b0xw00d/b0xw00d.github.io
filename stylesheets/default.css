@@ -1,60 +1,96 @@
 html{
   font-family: "Verdana";
-  background-color: #00091f;
+  background-color: white;
+}
+body{
+  margin: 0;
+  padding: 0;
 }
 a{
   color: white;
 }
 
 td {
-  background-color: black;
-  border: solid 1px;
+  background-color: #E8D370;
+  /*border: solid 1px;*/
   padding-bottom: 10px;
-  padding: 2px 20px 2px 20px;
+  padding: 15px 20px 15px 20px;
   display: block-inline;
   width: 320px;
   text-align: center;
+  border-radius: 5px;
+}
+td:hover{
+  background-color: #E8D3AC;
+}
+a:hover{
+  color: #70E8B9;
+}
+#name{
+  background-color: #FD5505;
+  text-align: center;
+  width: 14%;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 1px;
+  margin-left: 30px;
 }
 #picture{
-  background-image: url("../imgs/demon_chase.jpg");
-  border-radius: 20;
+  background-image: url("../imgs/chasey2.jpg");
+  z-index: 1;
+  background-size: cover;
+  border-radius: 5px;
   height: 250px;
   width: 14%;
   color: white;
   text-align: center;
+  /*margin-bottom: 15px;*/
+  margin-top: 1px;
   margin-bottom: 15px;
+  margin-left: 30px;
 }
 #social{
-  background-image: url("../imgs/Pseudoceros.jpg");
+  background-color: #FD5505;
+  /*background-size: cover;*/
   color: white;
+  /*z-index: -1;*/
   text-align: center;
   width: 14%;
   height: 150px;
   padding-top: 47px;
   padding-bottom: 47px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  margin-left: 30px;
 }
 #about{
-  background-image: url("../imgs/Cliones.jpg");
+  background-image: url("../imgs/Asterina-pectinifera.jpeg");
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
   overflow: scroll;
   color: white;
-  float: right;
-  height: 500px;
-  width: 84%;
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0px 10px 10px 10px;
-}
-#foot{
-  border: solid 1px black;
-  background-image: url("../imgs/come_to_daddy.jpg");
-  color: white;
-  height: 200px;
-  overflow: scroll;
+  /*float: right;*/
+  height: 600px;
   width: 100%;
   display: block;
-  float: right;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 10px 10px 10px 10px;
+  /*border-radius: 5px;*/
+}
+#foot{
+  background-color: #E8D370;
+  /*background-size: cover;*/
+  height: 210px;
+  z-index: -1;
+  position: bottom;
+  /*overflow: scroll;*/
+  width: 100%;
+  display: block;
+  /*float: right;*/
   text-align: center;
+  /*border-radius: 5px;*/
 }
 span{
   color: blue;
@@ -75,4 +111,11 @@ span{
   color: white;
   width: 100%;
   text-align: center;
+}
+.icon{
+  background-image: url("../imgs/twitter-circle-512.png")
+  background-size: cover;
+  border-radius: 200px;
+  height: 35px;
+  width: 35px;
 }
