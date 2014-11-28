@@ -20,9 +20,6 @@ td {
   border-radius: 5px;
   position: relative;
 }
-td:hover{
-  background-color: #E8D3AC;
-}
 a:hover{
   color: #70E8B9;
 }
