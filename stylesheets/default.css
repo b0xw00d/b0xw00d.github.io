@@ -2,7 +2,6 @@ html{
   font-family: "Arial Rounded MT Bold";
 }
 body{
-  margin: 0;
   padding: 0;
 }
 a{
@@ -30,11 +29,10 @@ a:hover{
   border-radius: 5px;
   color: black;
   position: fixed;
-  margin-bottom: 1px;
   margin-left: 50px;
-  margin-top: 442px;
   font-weight: bold;
   float: left;
+  bottom: 23%;
 }
 #picture{
   background-image: url("../imgs/chasey.jpg");
@@ -46,15 +44,14 @@ a:hover{
   width: 20%;
   color: white;
   text-align: center;
-  margin-top: 85px;
   margin-left: 50px;
   position: fixed;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   float: left;
+  top: 20%;
 }
 #social{
-  /*background-color: #F55B00;*/
   color: white;
   top: 0;
   right: 0;
