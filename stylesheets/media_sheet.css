@@ -8,7 +8,7 @@
   position: fixed;
   margin-left: 50px;
   font-weight: bold;
-  padding-top: 360px;
+  /*padding-top: 360px;*/
   }
   #picture{
     background-image: url("../imgs/chasey.jpg");
