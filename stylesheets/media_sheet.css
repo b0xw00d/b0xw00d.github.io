@@ -1,0 +1,28 @@
+@media screen and (min-width: 1024px) {
+  #name{
+  background-color: #E1B2F5;
+  text-align: center;
+  width: 20%;
+  border-radius: 5px;
+  color: black;
+  position: fixed;
+  margin-left: 50px;
+  font-weight: bold;
+  padding-top: 360px;
+  }
+  #picture{
+    background-image: url("../imgs/chasey.jpg");
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    height: 360px;
+    width: 20%;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    position: fixed;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
