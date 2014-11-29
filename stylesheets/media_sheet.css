@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1224px) {
   #name{
   background-color: #E1B2F5;
   text-align: center;
@@ -24,5 +24,10 @@
     position: fixed;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+  }
+  #namepic{
+  padding-top: 100px;
+  padding-bottom: 5px;
+  float: left;
   }
 }
