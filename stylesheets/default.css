@@ -27,7 +27,7 @@ a:hover{
   padding-bottom: 5px;
   float: left;
 }
-/*#name{
+#name{
   background-color: #E1B2F5;
   text-align: center;
   width: 20%;
@@ -37,8 +37,8 @@ a:hover{
   margin-left: 50px;
   font-weight: bold;
   padding-top: 360px;
-}*/
-/*#picture{
+}
+#picture{
   background-image: url("../imgs/chasey.jpg");
   z-index: 1;
   background-size: cover;
@@ -52,7 +52,7 @@ a:hover{
   position: fixed;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-}*/
+}
 #social{
   color: white;
   bottom: 25%;
