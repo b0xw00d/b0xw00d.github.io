@@ -9,6 +9,8 @@ a{
   text-decoration: none;
 }
 table tr{
+  top: 5;
+  right: 5;
   width: 100%;
   position: fixed;
 }
