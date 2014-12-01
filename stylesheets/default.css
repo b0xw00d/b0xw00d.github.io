@@ -11,19 +11,20 @@ a{
 table tr{
   min-width: 98%;
   position: fixed;
-  margin-right: 5px;
+  /*margin-right: 5px;*/
 }
 
 .header {
   background-color: #E1B2F5;
   padding-bottom: 10px;
   padding: 15px 24px 15px 24px;
-  min-width: 305px;
+  min-width: 300px;
   text-align: center;
   border-radius: 5px;
   /*display: inline-block;*/
   position: relative;
   margin-left: 8px;
+  margin-right: 10px;
   /*clear: both;*/
 
 }
@@ -78,7 +79,7 @@ ul a:hover img{
 }
 #foot{
   background-color: #E1B2F5;
-  height: 110px;
+  height: 95px;
   z-index: -1;
   position: fixed;
   bottom: 0;
@@ -117,6 +118,7 @@ span{
 
 h1{
   text-align: center;
+  vertical-align: center;
 }
 ul{
   float: right;
