@@ -11,7 +11,7 @@ a{
 table tr{
   left: 1em;
   /*right: 1em;*/
-  width: 100%;
+  min-width: 100%;
   position: fixed;
 }
 
@@ -46,7 +46,7 @@ a:hover{
 #name{
   background-color: #3B9F83;
   text-align: center;
-  width: 15em;
+  min-width: 15em;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   color: black;
@@ -139,7 +139,7 @@ ul{
 /*   bottom: 2em; */
 }
 #social ul{
-  height: 25%;
+  /*height: 25%;*/
 }
 
 /*testing plugin*/
