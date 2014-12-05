@@ -9,23 +9,29 @@ a{
   text-decoration: none;
 }
 table tr{
-  top: 5;
-  right: 5;
+  left: 1em;
+  /*right: 1em;*/
   width: 100%;
   position: fixed;
 }
 
 .header {
   background-color: #3B9F83;
-  padding-bottom: 10px;
-  padding: 15px 26px 15px 26px;
-  min-width: 300px;
+  padding-bottom: 2%;
+  padding-right: 1%;
+  padding: 1% 2% 1% 2%;
+  width: 16em;
   text-align: center;
   border-radius: 5px;
+  /*margin-left: 1em;*/
+  top: 0;
+  right: 1em;
+  /*left: 1em;*/
+  /*clear: bottom;*/
   /*display: inline-block;*/
   position: relative;
   /*margin-left: 10px;*/
-  /*margin-right: 10px;*/
+/*   margin-right: 3%; */
   /*clear: both;*/
 
 }
@@ -33,31 +39,31 @@ a:hover{
   color: #70E8B9;
 }
 #namepic{
-  padding-top: 100px;
-  padding-bottom: 5px;
+  padding-top: 10%;
+  padding-bottom: 10%;
   float: left;
 }
 #name{
   background-color: #3B9F83;
   text-align: center;
-  width: 285px;
-  border-radius: 5px;
+  width: 15em;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   color: black;
   position: fixed;
-  margin-left: 50px;
+  margin-left: 6%;
   font-weight: bold;
-  margin-top: 350px;
+  margin-top: 19em;
 }
 #picture{
   background-image: url("../imgs/chasey.jpg");
   background-size: cover;
   background-position: center;
-  border-radius: 0;
-  height: 360px;
-  min-width: 285px;
+  height: 20em;
+  min-width: 15em;
   color: white;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 6%;
   position: fixed;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -73,13 +79,13 @@ ul a:hover img{
   position: fixed;
   top: 0;
   left: 0;
-  height: 1100px;
+  height: 100%;
   width: 100%;
 }
 #foot{
   background-color: #3B9F83;
   color: black;
-  height: 95px;
+  height: 12%;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -108,22 +114,32 @@ span{
   width: 100%;
   text-align: center;
 }
-.icon{
+/* .icon{
   background-image: url("../imgs/twitter-16.gif");
   background-size: cover;
   border-radius: 200px;
   height: 35px;
   width: 35px;
-}
+} */
 
 h2{
   text-align: center;
   vertical-align: center;
 }
 ul{
-  float: right;
+  /*float: right;*/
+  padding-top: 10%;
   list-style-type: none;
-  margin-top: 10%;
+   position: fixed;
+/*   padding-bottom: 15%; */
+  right: 1.5em;
+/*   top: 2em; */
+  height: 20%;
+  /*margin-top: 15%;*/
+/*   bottom: 2em; */
+}
+#social ul{
+  height: 40%;
 }
 
 /*testing plugin*/
