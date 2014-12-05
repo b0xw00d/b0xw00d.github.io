@@ -1,6 +1,7 @@
 html{
   font-family: 'Gloria Hallelujah', cursive;
 }
+
 body{
   padding: 0;
 }
@@ -10,32 +11,19 @@ a{
 }
 table tr{
   left: 1em;
-  /*right: 1em;*/
   min-width: 100%;
-  /*position: fixed;*/
 }
-
 .header {
   background-color: #3B9F83;
-  /*padding: 1% 2% 1% 2%;*/
   width: 20.6em;
   padding-left: 3em;
   padding-right: 3em;
   height: 3em;
   text-align: center;
   border-radius: 5px;
-  /*margin-left: 1em;*/
   top: 0;
-  /*right: 1em;*/
-  /*left: 1em;*/
-  /*clear: bottom;*/
-  /*display: inline-block;*/
-  /*position: relative;*/
-  /*margin-left: 10px;*/
-/*   margin-right: 3%; */
-  /*clear: both;*/
-
 }
+
 a:hover{
   color: #70E8B9;
 }
@@ -83,16 +71,15 @@ ul a:hover img{
   height: 100%;
   width: 100%;
 }
+
 #foot{
   background-color: #3B9F83;
   color: black;
   height: 12%;
   position: fixed;
   bottom: 0;
-  width: 100%;
   left: 0;
-  bottom: 0;
-  /*margin-top: 10px;*/
+  width: 100%;
 }
 
 span{
@@ -115,34 +102,16 @@ span{
   width: 100%;
   text-align: center;
 }
-/* .icon{
-  background-image: url("../imgs/twitter-16.gif");
-  background-size: cover;
-  border-radius: 200px;
-  height: 35px;
-  width: 35px;
-} */
 
 h2{
   text-align: center;
   vertical-align: center;
 }
 ul{
-  /*float: right;*/
   padding-top: 5%;
-  /*padding-bottom: %;*/
   list-style-type: none;
   position: fixed;
-/*   padding-bottom: 15%; */
   right: 1.5em;
-/*   top: 2em; */
   height: 20%;
-  /*margin-top: 15%;*/
-/*   bottom: 2em; */
-}
-#social ul{
-  /*margin-bottom: 20%;*/
-  /*height: 25%;*/
 }
 
-/*testing plugin*/
