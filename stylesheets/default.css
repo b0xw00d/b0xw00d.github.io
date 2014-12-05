@@ -20,7 +20,7 @@ table tr{
   padding-bottom: 2%;
   padding-right: 1%;
   padding: 1% 2% 1% 2%;
-  width: 16em;
+  width: 15em;
   text-align: center;
   border-radius: 5px;
   /*margin-left: 1em;*/
@@ -130,7 +130,7 @@ ul{
   /*float: right;*/
   padding-top: 10%;
   list-style-type: none;
-   position: fixed;
+  position: fixed;
 /*   padding-bottom: 15%; */
   right: 1.5em;
 /*   top: 2em; */
@@ -139,7 +139,7 @@ ul{
 /*   bottom: 2em; */
 }
 #social ul{
-  height: 40%;
+  height: 25%;
 }
 
 /*testing plugin*/
