@@ -5,17 +5,16 @@ html{
 .nav{
   color: black;
   list-style-type: none;
-  width: 50em;
+  width: 100%;
   display: absolute;
-  padding-left: 10%;
-  padding-right: 20%;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
   border-bottom: solid 0.05em black;
 }
 .nav li{
   display: inline;
   text-align: center;
-  width: 100;
-  padding-left: 18%;
+  width: 100%;
 }
 a{
   color: black;
