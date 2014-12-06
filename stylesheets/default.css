@@ -112,13 +112,13 @@ ul{
   display: inline-block;
   margin-bottom: 22em;
   float: right;
-  margin-left: 3%;
+  margin-left: 6%;
 }
 #about_me{
   overflow: scroll;
   height: 22em;
   width: 65%;
-  margin-left: 26%;
+  margin-left: 25%;
   margin-top: 8%;
   display: inline-block;
 }
