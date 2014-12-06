@@ -5,57 +5,53 @@ html{
 body{
   padding: 0;
 }
+section{
+  display: inline;
+}
 a{
   color: black;
+  font-size: 1.2em;
   text-decoration: none;
 }
-table tr{
-  left: 1em;
-  min-width: 100%;
+.nav li{
+  display: inline;
+  padding-left: 2em;
+  padding-right: 1em;
+  width: 100%;
 }
-.header {
-  background-color: #3B9F83;
-  width: 20.6em;
-  padding-left: 3em;
-  padding-right: 3em;
-  height: 3em;
+ul li{
+  /*left: 1em;*/
+  min-width: 100%;
+  /*display: inline-block;*/
+}
+.nav{
+  border-bottom: 0.05em black solid;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  display: inline;
+  height: 1.7em;
   text-align: center;
-  border-radius: 5px;
   top: 0;
+  right: 0;
 }
 
 a:hover{
   color: #70E8B9;
 }
-#namepic{
-  padding-top: 3%;
-  margin-bottom: 5%;
-  float: left;
-}
-#name{
-  background-color: #3B9F83;
-  text-align: center;
-  min-width: 15em;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  color: black;
-  position: fixed;
-  margin-left: 6%;
-  font-weight: bold;
-  margin-top: 19em;
-}
+
 #picture{
   background-image: url("../imgs/chasey.jpg");
   background-size: cover;
   background-position: center;
-  height: 20em;
+  height: 55%;
   min-width: 15em;
   color: white;
   text-align: center;
-  margin-left: 6%;
+  margin-left: 1%;
+  margin-top: 7em;
   position: fixed;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 1em;
 }
 
 ul a:hover img{
@@ -73,7 +69,8 @@ ul a:hover img{
 }
 
 #foot{
-  background-color: #3B9F83;
+  /*background-color: #3B9F83;*/
+  border-top: solid 0.05em black;
   color: black;
   height: 12%;
   position: fixed;
@@ -96,22 +93,31 @@ span{
   text-align: center;
 }
 
-.home_button{
-  background-color: orange;
-  color: white;
-  width: 100%;
-  text-align: center;
-}
-
 h2{
   text-align: center;
   vertical-align: center;
 }
 ul{
-  padding-top: 5%;
+  padding-top: 2%;
   list-style-type: none;
   position: fixed;
   right: 1.5em;
   height: 20%;
 }
-
+.social{
+  display: inline-block;
+}
+#social{
+  /*padding-top: 5;*/
+  display: inline-block;
+  margin-bottom: 22em;
+  float: right;
+}
+#about_me{
+  overflow: scroll;
+  height: 22em;
+  width: 65%;
+  margin-left: 27%;
+  margin-top: 8%;
+  display: inline-block;
+}
