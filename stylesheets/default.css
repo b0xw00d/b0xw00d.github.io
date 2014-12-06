@@ -44,10 +44,9 @@ a:hover{
   background-image: url("../imgs/chasey.jpg");
   background-size: cover;
   background-position: center;
-  height: 55%;
+  height: 20em;
   min-width: 15em;
   color: white;
-  text-align: center;
   margin-left: 1%;
   margin-top: 7em;
   position: fixed;
