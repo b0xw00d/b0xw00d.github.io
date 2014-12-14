@@ -1,5 +1,5 @@
 html{
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Special Elite', cursive;
 }
 header img{
   width: 100%;
@@ -13,7 +13,7 @@ ul{
   border-bottom: 0.05em solid purple;
 }
 p{
-  font-size: 0.75em;
+  font-size: 1.2em;
   /*overflow: scroll;*/
 }
 ul li{
@@ -33,12 +33,12 @@ a:hover{
   color: #FE6F00;
 }
 div{
-  height: 18em;
+  height: 25em;
   overflow: scroll;
 }
 footer{
   bottom: 0;
   border-top: 0.05em solid purple;
   text-align: center;
-  height: 2em;
+  height: 1em;
 }
