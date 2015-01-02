@@ -79,6 +79,10 @@ ul a{
   border-radius: 0.5em;
 }
 
+#Home p{
+  padding-bottom: 0.5em;
+}
+
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
 #Blog div{
@@ -99,7 +103,7 @@ ul a{
 
 .cultural{
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 2.6em;
 }
 
 .technical{
