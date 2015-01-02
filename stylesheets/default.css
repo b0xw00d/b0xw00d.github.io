@@ -19,7 +19,7 @@ html{
 }
 
 body{
-  background-image: url("./website backgrounds/bg.jpg");
+  background-image: url("./imgs/bg.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /*height: 100%;*/
