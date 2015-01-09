@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://b0xw00d.github.io/sitemap.xml 
