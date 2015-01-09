@@ -5,15 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Chase Nutile&#8217;s Blog</title>
+  <title>T4-enumerable-methods - Chase Nutile&#8217;s Blog</title>
   <meta name="author" content="Chase Nutile">
 
   
-  <meta name="description" content="Blog Archive 2015 T5-ruby-classes
-Jan 09 2015 C5-feedback
-Jan 09 2015 T4-enumerable-methods
-Jan 09 2015 C4-tech-issues
-Jan 09 2015 T3-array-hashes &hellip;">
+  <meta name="description" content="Just finished week 4 at Dev Bootcamp! We did a lot of work with Ruby&rsquo;s public methods this week. I used plenty of methods like .each,. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +18,7 @@ Jan 09 2015 T3-array-hashes &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://b0xw00d.github.io/blog/archives">
+  <link rel="canonical" href="http://b0xw00d.github.io/blog/2015/01/09/t4-enumerable-methods">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Chase Nutile's Blog" type="application/atom+xml">
@@ -68,111 +64,72 @@ Jan 09 2015 T3-array-hashes &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">T4-enumerable-methods</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-09T17:01:35-06:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>5:01 pm</span></time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>Just finished week 4 at Dev Bootcamp!  We did a lot of work with Ruby&rsquo;s public methods this week.  I used plenty of methods like .each,.each_slice,.count,.to_s,.to_a, etc., and will be explaining the Enumerable#map method to you in the following blog.</p>
 
-  
-  <h2>2015</h2>
+<p>The map method is a method that can be very useful to rubyists in many ways.  What map does, is take and array, run the block given for every element of the array, and return a new array with new elments.  For instance, if I had the array [1,2,3,4], and I ran .map at the end of it like this: [1,2,3,4].map {|bango| bango + 1}, the new array would look like this: [2,3,4,5].  The map method iterated over every element of our original array, stored those elements in the variable &ldquo;bango&rdquo; and ran the block of code {bango + 1} for each.  It stores it&rsquo;s results in the corresponding indices of the new array.  Very useful!</p>
 
-<article>
-  
-<h1><a href="/blog/2015/01/09/t5-ruby-classes/">T5-ruby-classes</a></h1>
-<time datetime="2015-01-09T17:05:23-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
+<p>So that&rsquo;s how the map method works.  Cool, right?  I should probably state here that Ruby has another method which does, literally, the same exact thing.  The name of this synonym method is #collect.  Ruby has these synonyms built in for easier use or transition from other languages.</p>
 
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/c5-feedback/">C5-feedback</a></h1>
-<time datetime="2015-01-09T17:02:51-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/t4-enumerable-methods/">T4-enumerable-methods</a></h1>
-<time datetime="2015-01-09T17:01:35-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/c4-tech-issues/">C4-tech-issues</a></h1>
-<time datetime="2015-01-09T16:59:06-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/t3-array-hashes/">T3-array-hashes</a></h1>
-<time datetime="2015-01-09T16:57:14-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/c2-thinking-style/">C2-thinking-style</a></h1>
-<time datetime="2015-01-09T16:54:15-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/t2-css-design/">T2-css-design</a></h1>
-<time datetime="2015-01-09T16:50:48-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/c1-chefs-kitchen/">C1-chefs-kitchen</a></h1>
-<time datetime="2015-01-09T16:45:47-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2015/01/09/t1-git-blog/">T1-git-blog</a></h1>
-<time datetime="2015-01-09T15:08:57-06:00" pubdate><span class='month'>Jan</span> <span class='day'>09</span> <span class='year'>2015</span></time>
-
-
-</article>
-
+<p>I hope this explanation of #map was useful.  Thanks for taking the time to read this!</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Chase Nutile</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-01-09T17:01:35-06:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>9</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>5:01 pm</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://b0xw00d.github.io/blog/2015/01/09/t4-enumerable-methods/" data-via="" data-counturl="http://b0xw00d.github.io/blog/2015/01/09/t4-enumerable-methods/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/09/c4-tech-issues/" title="Previous Post: c4-tech-issues">&laquo; c4-tech-issues</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2015/01/09/c5-feedback/" title="Next Post: c5-feedback">c5-feedback &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
 
 </div>
