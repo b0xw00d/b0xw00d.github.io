@@ -4,13 +4,22 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-09T14:49:37-06:00</updated>
+  <updated>2015-01-09T15:10:25-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Chase Nutile]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[T1-git-blog]]></title>
+    <link href="http://b0xw00d.github.io/blog/2015/01/09/t1-git-blog/"/>
+    <updated>2015-01-09T15:08:57-06:00</updated>
+    <id>http://b0xw00d.github.io/blog/2015/01/09/t1-git-blog</id>
+    <content type="html"><![CDATA[<p>This week I learned all about git and github at DBC.  Both are useful version control tools for web developers.  I&rsquo;ll do my best to clearly share what I&rsquo;ve learned with you here.  Bear with me now!</p>
+]]></content>
+  </entry>
   
 </feed>
