@@ -1,0 +1,151 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+/*header{
+  position: fixed;
+}*/
+
+#arrow:hover{
+  transform: scale(1.1,1.1);
+}
+
+body{
+  background-image: url("../imgs/bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*height: 100%;*/
+}
+
+a img{
+  margin-left: 48%;
+  /*position: fixed;*/
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+header{
+  border-bottom: solid red .075em;
+  /*background-color: gray;*/
+}
+
+ul{
+  display: inline;
+}
+
+.social-media li{
+  display: inline-block;
+}
+
+.pages li{
+  display: inline;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 2em;
+  padding-right: 1em;
+  border-right: solid .075em red;
+}
+
+ul a{
+  color: black;
+  text-decoration: none;
+}
+
+.social-media{
+  margin-left: 34em;
+}
+
+.social-media a:hover img{
+  transform: scale(1.1,1.1);
+}
+
+.pages a:hover{
+  color: red;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#Home img{
+  float: left;
+  margin: 1em;
+  border-radius: 0.5em;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#Blog div{
+  text-align: center;
+}
+
+#Blog div ul{
+  padding-right: 4em;
+}
+
+#Blog div ul li{
+  padding-top: 1em;
+}
+
+#Blog a:hover img{
+  transform: rotate(-40deg);
+}
+
+.cultural{
+  /*padding-top: 1em;*/
+  padding-bottom: 2.6em;
+}
+
+.technical{
+  padding-top: 1em;
+}
+
+.technical a:hover{
+  color: blue;
+}
+
+.cultural a:hover{
+  color: red;
+}
+
+.technical li{
+  display: inline-block;
+  /*text-align: center;*/
+  margin-left: 2%;
+}
+
+.cultural li{
+  display: inline-block;
+  margin-left: 2%;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#Contact p{
+  width: 52%;
+  float: right;
+  padding-right: 5em;
+}
+
+
+#Contact img{
+  float: right;
+  bottom: 1em;
+}
+
+#Contact h3{
+  padding-top: 1em;
+}
+
+/*#foot img{
+  float: right;
+  clear: left;
+}*/
