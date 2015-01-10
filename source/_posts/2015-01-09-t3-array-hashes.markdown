@@ -8,6 +8,8 @@ categories:
 
 This week at DBC we started the section on Ruby!  A lot of this week's material was review for me but I still learned a bunch and I definitely sharpened my skills a bit in the process.  I'm going to write this blog about hashes and arrays.  Hopefully some of you find it useful!
 
+<!--more-->
+
 Let's start by describing arrays.  An array is a list of elements that are grouped together and presented in an ordered list.  Every element in an array is representative of a single object.  These can be strings, numbers, variables -- any object.  The Array class in ruby come with a ton of predefined methods which can be called on arrays to manipulate these elements.  Arrays are extremely useful for sorting and arranging large amounts of data quickly.
 
 Arrays are created just like any other variable except that they accept a list of elements contained by brackets like so: my_array = [2,22,222];.  As I stated earlier, there are plenty of other ways to initialize and define an array.  I won't get into all of them here.

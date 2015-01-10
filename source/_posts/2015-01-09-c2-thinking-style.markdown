@@ -8,6 +8,8 @@ categories:
 
 Hello, everybody!  I'm just finishing up week 3 at Dev Bootcamp and I thought I'd share some of my thoughts here.  I be writing about my struggles, areas of confidence, learning/thinking styles and some of the social relationships I've formed over the past 3 weeks.  Let's get started!
 
+<!--more-->
+
 Before entering phase 0 at DBC I was asked to take a personal thinking quiz to identify my Gregorc thinking style.  The Gregorc lumps people into 4 different thinking stlyes: Concrete Sequential, Abstract Sequential, Concrete Random, and Abstract Random.  I was identified as Concrete Random.  This means I enjoy experimenting, taking risks, and using intuition to solve problems.
 
 What are the benefits of being a Concrete Sequential thinker?  There are plenty.  Concrete Sequential thinkers respond well to trial-and-error approaches.  We love to tinker with things!  This has proved especially useful in the design portion of phase 0.  Tinkering with HTML and CSS was a big part of week 2 for me and I really enjoyed myself for most of it!

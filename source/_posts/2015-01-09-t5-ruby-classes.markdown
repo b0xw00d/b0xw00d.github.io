@@ -5,6 +5,9 @@ date: 2015-01-09 17:05:23 -0600
 comments: true
 categories:
 ---
+We did a lot of work with ruby classes this week.  I'm going to do my best to explain them to you with real world examples, in this blog.  I hope this proves useful.  Thanks for reading!
+
+<!--more-->
 
 Explain when, why, and how to use classes
 
