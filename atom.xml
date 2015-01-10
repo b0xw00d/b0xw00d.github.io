@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-10T12:01:12-06:00</updated>
+  <updated>2015-01-10T12:05:21-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -178,6 +178,9 @@
     <id>http://b0xw00d.github.io/blog/2015/01/09/t1-git-blog</id>
     <content type="html"><![CDATA[<p>This week I learned all about git and github at DBC.  Both are useful version control tools for web developers.  I&rsquo;ll do my best to clearly share what I&rsquo;ve learned with you here.  Bear with me now!
 I&rsquo;ll start with version control.  Version control is a system for storing and sorting different iterations of a project.  This is helpful because it allows multiple people to be working on their own copies of the same files.  It also allows users to save older versions of code which they can revert back to, if needed.  Basically, if a mistake is made that breaks the project there are earlier, working versions of the program.</p>
+
+<!--more-->
+
 
 <p>So git is especially useful in helping users to keep track of changes they&rsquo;ve made to a project!  Great!  Now how do you use it?  I started by forking the project I wanted to use into my own github profile, then cloning it to my computer.  Forking a project is, essentially, making an exact copy of it that lives on your profile.  That way you can make changes without affecting the original files.  This fork will live on the web (your github profile).</p>
 
