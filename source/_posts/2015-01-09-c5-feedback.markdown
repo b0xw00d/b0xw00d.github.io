@@ -1,0 +1,23 @@
+---
+layout: post
+title: "c5-feedback"
+date: 2015-01-09 17:02:51 -0600
+comments: true
+categories:
+---
+
+Identify one emotion that arose during a pairing session
+
+I've had a ton of fun pairing thus far!  All of my pair partners have been very respectful and helpful.  I feel very lucky to have all these awesome new friends!
+
+Describe kind, actionable, and specific feedback
+
+Kind, actionable, and specific feedback is an essential part of the pairing process.  I feel all the feedback I've received was KAS.
+
+Discuss the feeling of vulnerability when pairing and reading feedback
+
+I always feel vulnerable.  I think it's a part of being an honest person.  There's always this idea that people know exactly who and what you are, and could use it against you at any time.  Pairing is no different.  The only experience I have writing code is a C++ course I took at UIC in 2012 so I'm pretty insecure about my skills as a programmer.  Also, I'm definitely not the type to pretend that I'm good at something when I'm not.  Like I stated above: everyone has been totally kind in their feedback.  Vulnerability is always a part of stuff like this.  I just do my best to not let it control me.
+
+Was something frustrating and difficult for you?
+
+I had a lot of trouble expressing myself clearly in my pairing sessions.  I sometimes get so preoccupied with being nice that I freeze up and can't think.  It's difficult to pair with people you've never met.  In person I think this problem would no longer exist.
