@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-10T12:05:21-06:00</updated>
+  <updated>2015-01-10T12:15:58-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -18,7 +18,12 @@
     <link href="http://b0xw00d.github.io/blog/2015/01/09/t5-ruby-classes/"/>
     <updated>2015-01-09T17:05:23-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/09/t5-ruby-classes</id>
-    <content type="html"><![CDATA[<p>Explain when, why, and how to use classes</p>
+    <content type="html"><![CDATA[<p>We did a lot of work with ruby classes this week.  I&rsquo;m going to do my best to explain them to you with real world examples, in this blog.  I hope this proves useful.  Thanks for reading!</p>
+
+<!--more-->
+
+
+<p>Explain when, why, and how to use classes</p>
 
 <p>I would use classes whenever there was a real world object that needed to be represented through my code.  I would generally break classes into the brodest terms possible.  For instance, a class named Vehicle seems more appropriate than a class name 2014 Honda Civic.  More specific instances like a 2014 Honda Civic should be created with either methods or vairables.</p>
 
@@ -33,7 +38,12 @@
     <link href="http://b0xw00d.github.io/blog/2015/01/09/c5-feedback/"/>
     <updated>2015-01-09T17:02:51-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/09/c5-feedback</id>
-    <content type="html"><![CDATA[<p>Identify one emotion that arose during a pairing session</p>
+    <content type="html"><![CDATA[<p>Feedback is a vital part of the pairing process.  This blog post is me attempting to explain the benefits, and my experience, with pairing and some of the feedback I&rsquo;ve received.  I&rsquo;ve had a chance to work with a ton of awesome people in DBC so far and I consider myself very lucky.  Thanks for reading!</p>
+
+<!--more-->
+
+
+<p>Identify one emotion that arose during a pairing session</p>
 
 <p>I&rsquo;ve had a ton of fun pairing thus far!  All of my pair partners have been very respectful and helpful.  I feel very lucky to have all these awesome new friends!</p>
 
@@ -58,6 +68,9 @@
     <id>http://b0xw00d.github.io/blog/2015/01/09/t4-enumerable-methods</id>
     <content type="html"><![CDATA[<p>Just finished week 4 at Dev Bootcamp!  We did a lot of work with Ruby&rsquo;s public methods this week.  I used plenty of methods like .each,.each_slice,.count,.to_s,.to_a, etc., and will be explaining the Enumerable#map method to you in the following blog.</p>
 
+<!--more-->
+
+
 <p>The map method is a method that can be very useful to rubyists in many ways.  What map does, is take and array, run the block given for every element of the array, and return a new array with new elments.  For instance, if I had the array [1,2,3,4], and I ran .map at the end of it like this: [1,2,3,4].map {|bango| bango + 1}, the new array would look like this: [2,3,4,5].  The map method iterated over every element of our original array, stored those elements in the variable &ldquo;bango&rdquo; and ran the block of code {bango + 1} for each.  It stores it&rsquo;s results in the corresponding indices of the new array.  Very useful!</p>
 
 <p>So that&rsquo;s how the map method works.  Cool, right?  I should probably state here that Ruby has another method which does, literally, the same exact thing.  The name of this synonym method is #collect.  Ruby has these synonyms built in for easier use or transition from other languages.</p>
@@ -72,6 +85,9 @@
     <updated>2015-01-09T16:59:06-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/09/c4-tech-issues</id>
     <content type="html"><![CDATA[<p>This is a blog post about male privilege in the tech world today.  I&rsquo;ll start with a disclaimer about some of the language used in this blog post then I&rsquo;ll move on to some statistics so we have a better grasp on the scope of this problem we&rsquo;re facing.</p>
+
+<!--more-->
+
 
 <p>Disclaimer: I will be using words like patriarchy, sexism, and misogyny at differnt points throughout this blog post.  I&rsquo;m very careful about how I use these words and I think it&rsquo;s important that anyone else who would like to be a part of this conversation is equally thoughtful.  These words are not synonyms even though many times they are used as such.  Sexism, misogyny, patriarchy, and feminism are not words that should be thrown around lightly and they are NOT INTERCHANGEABLE.  Misogyny is defined as a hatred toward women and I will NEVER use that word when what I&rsquo;m actually talking about is male privilege or sexism.  This might seem nitpicky or semantic, but I assure you it is not.  In order to get everyone on board and truly affect change we need to understand these terms completely.  You should stop reading now and look all of those words up in the dictionary, if you haven&rsquo;t already done so.  If you are at all unsure of what these words mean or how they should be used, I strongly encourage you to study them a little more deeply.  As a male feminist in 2014 I will only be taken seriously if I&rsquo;ve done my homework and learned to talk about these things accurately.  I expect the same respect from anyone else wishing to engage in this conversation, whether they&rsquo;re women or men.</p>
 
@@ -104,6 +120,9 @@
     <id>http://b0xw00d.github.io/blog/2015/01/09/t3-array-hashes</id>
     <content type="html"><![CDATA[<p>This week at DBC we started the section on Ruby!  A lot of this week&rsquo;s material was review for me but I still learned a bunch and I definitely sharpened my skills a bit in the process.  I&rsquo;m going to write this blog about hashes and arrays.  Hopefully some of you find it useful!</p>
 
+<!--more-->
+
+
 <p>Let&rsquo;s start by describing arrays.  An array is a list of elements that are grouped together and presented in an ordered list.  Every element in an array is representative of a single object.  These can be strings, numbers, variables &ndash; any object.  The Array class in ruby come with a ton of predefined methods which can be called on arrays to manipulate these elements.  Arrays are extremely useful for sorting and arranging large amounts of data quickly.</p>
 
 <p>Arrays are created just like any other variable except that they accept a list of elements contained by brackets like so: my_array = [2,22,222];.  As I stated earlier, there are plenty of other ways to initialize and define an array.  I won&rsquo;t get into all of them here.</p>
@@ -122,6 +141,9 @@
     <updated>2015-01-09T16:54:15-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/09/c2-thinking-style</id>
     <content type="html"><![CDATA[<p>Hello, everybody!  I&rsquo;m just finishing up week 3 at Dev Bootcamp and I thought I&rsquo;d share some of my thoughts here.  I be writing about my struggles, areas of confidence, learning/thinking styles and some of the social relationships I&rsquo;ve formed over the past 3 weeks.  Let&rsquo;s get started!</p>
+
+<!--more-->
+
 
 <p>Before entering phase 0 at DBC I was asked to take a personal thinking quiz to identify my Gregorc thinking style.  The Gregorc lumps people into 4 different thinking stlyes: Concrete Sequential, Abstract Sequential, Concrete Random, and Abstract Random.  I was identified as Concrete Random.  This means I enjoy experimenting, taking risks, and using intuition to solve problems.</p>
 
@@ -146,6 +168,9 @@
 
 <p>Anyway, I&rsquo;m going to explain the difference between margin, border, and padding in this week&rsquo;s technical blog.  I&rsquo;ll attach a helpful image below as well.  So here we go!</p>
 
+<!--more-->
+
+
 <p>Let&rsquo;s do this from the inside out.  First up: padding.  Padding is the area that surrounds the content inside of a box model in html.  For instance, if you have a div tag with some text centered inside of it, the padding is the area between the text (also referred to as content) and the outside (border) of the div.  You can adjust the padding in css with the padding-left, padding-right, etc., atrributes.  You can also change all of them in one line with like this: padding: 10px 20px 10px 20px. The values begin with the top and go clockwise around the box.</p>
 
 <p>Next up is border. The border is the line that contains the content and padding.  You can call it in css using border:.  You can assign different widths and colors to it, or you can make it solid, dashed, 3D, etc.</p>
@@ -160,6 +185,9 @@
     <updated>2015-01-09T16:45:47-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/09/c1-chefs-kitchen</id>
     <content type="html"><![CDATA[<p>There is no doubt in my mind that anyone can teach themselves how to use Rails.  Human beings are amazing creatures.  Time and time again they will surprise you with how much knowledge they can actually cram into those tiny little skulls of theirs!  That being said: a true craftsman goes beyond just these technical skills.</p>
+
+<!--more-->
+
 
 <p>A true craftsman knows her customers, peers, apprentices and mentors from the inside out, and she strives to strengthen these relationships whenever possible.  Dev Bootcamp puts strong emphasis on these principles, and plans to fortify them in us, through the fire of a 9 week bootcamp environment.  I couldn&rsquo;t be happier to have this opportunity in front of me.</p>
 
