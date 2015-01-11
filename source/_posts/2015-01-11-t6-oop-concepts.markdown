@@ -5,7 +5,7 @@ date: 2015-01-11 11:39:39 -0600
 comments: true
 categories:
 ---
-Class methods are a super important part of the Ruby programming language.  They allow users to call a method on an instance of a class directly (e.g. String#length).  Length is a class method contained in the String class of Ruby.  Therefore, .length can be called on any string and will return the number of characters in that string.
+Class methods are a super important part of the Ruby programming language.  They allow users to call a method on a class directly as opposed to an instance class which requires a new instance to be called.  I illustrate this with code below:
 
 ```ruby
 #defining a class method
