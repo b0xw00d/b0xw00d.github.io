@@ -9,7 +9,7 @@ Class methods are a super important part of the Ruby programming language.  They
 
 <!--more-->
 
-'''ruby
+```ruby
 #defining a class method
 
 class Foo
@@ -31,7 +31,7 @@ end
 
 baz = Foo.new
 baz.bar #=> This is an instance method.
-'''
+```
 
 > Notice in the code above that we needed to create a new instance of the class Foo to call the instance method > bar.  In the first example, this wasn't necessary because we defined .bar as a class method.
 
