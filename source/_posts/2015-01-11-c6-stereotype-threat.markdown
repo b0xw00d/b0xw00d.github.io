@@ -7,6 +7,8 @@ categories:
 ---
 As a white male in the United States, I haven't had to deal with stereotype threat a whole lot myself.  Though, I've definitely seen some of it's consequences.  Whether it's racism, sexism, classism, etc., stereotype threat is all around us and plays a very real part in our lives.
 
-This is a difficult blog for me to write because I've always had trouble talking about my own ethnicity.  I am half Puerto Rican, half Italian, so I'm not technically white.  That being said: my skin is white and I have definitely reaped the benefits of white privilege throughout my life.
+This is a difficult blog for me to write because I've always had trouble talking about my own ethnicity.  I am half Puerto Rican, half Italian, so I'm not technically white.  That being said: my skin is white, so I have definitely reaped the benefits of white privilege throughout my life.
 
 <!--more-->
+
+Anyway, I don't have a whole lot to say here.  I definitely see stereotype threat in our culture frequently.  I mostly see it manifest as a symptom of gender roles, honestly.  Society expects both women and men to fit into these boxed stereotypes frequently and it definitely has a negative effect on many lives.
