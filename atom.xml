@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-10T12:52:57-06:00</updated>
+  <updated>2015-01-11T12:54:13-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -12,6 +12,58 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[c6-stereotype-threat]]></title>
+    <link href="http://b0xw00d.github.io/blog/2015/01/11/c6-stereotype-threat/"/>
+    <updated>2015-01-11T11:45:52-06:00</updated>
+    <id>http://b0xw00d.github.io/blog/2015/01/11/c6-stereotype-threat</id>
+    <content type="html"><![CDATA[<p>As a white male in the United States, I haven&rsquo;t had to deal with stereotype threat a whole lot myself.  Though, I&rsquo;ve definitely seen some of it&rsquo;s consequences.  Whether it&rsquo;s racism, sexism, classism, etc., stereotype threat is all around us and plays a very real part in our lives.</p>
+
+<!--more-->
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[t6-oop-concepts]]></title>
+    <link href="http://b0xw00d.github.io/blog/2015/01/11/t6-oop-concepts/"/>
+    <updated>2015-01-11T11:39:39-06:00</updated>
+    <id>http://b0xw00d.github.io/blog/2015/01/11/t6-oop-concepts</id>
+    <content type="html"><![CDATA[<p>Class methods are a super important part of the Ruby programming language.  They allow users to call a method on an instance of a class directly (e.g. String#length).  Length is a class method contained in the String class of Ruby.  Therefore, .length can be called on any string and will return the number of characters in that string.</p>
+
+<!--more-->
+
+
+<p>&lsquo;&rsquo;&lsquo;ruby</p>
+
+<h1>defining a class method</h1>
+
+<p>class Foo
+  def self.bar
+    &ldquo;This is a class method&rdquo;
+  end
+end</p>
+
+<p>Foo.bar   #=> This is a class method.</p>
+
+<h1>defining an instance method</h1>
+
+<p>class Foo
+  def bar
+    &ldquo;This is an instance method.&rdquo;
+  end
+end</p>
+
+<p>baz = Foo.new
+baz.bar #=> This is an instance method.
+&lsquo;&rsquo;&#8217;</p>
+
+<blockquote><p>Notice in the code above that we needed to create a new instance of the class Foo to call the instance method > bar.  In the first example, this wasn&rsquo;t necessary because we defined .bar as a class method.</p></blockquote>
+
+<p>It should be noted that this is not the only way to create instance or class methods in Ruby.  There are 3 ways to create each.  I only included the syntax I prefer here for the sake of brevity.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[t5-ruby-classes]]></title>

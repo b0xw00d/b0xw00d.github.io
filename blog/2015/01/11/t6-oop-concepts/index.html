@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>about - Chase Nutile</title>
+  <title>t6-oop-concepts - Chase Nutile</title>
   <meta name="author" content="Chase Nutile">
 
   
-  <meta name="description" content=" About Sample! Recent Posts c6-stereotype-threat t6-oop-concepts ">
+  <meta name="description" content="Class methods are a super important part of the Ruby programming language. They allow users to call a method on an instance of a class directly (e.g &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://b0xw00d.github.io/about/">
+  <link rel="canonical" href="http://b0xw00d.github.io/blog/2015/01/11/t6-oop-concepts/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -65,11 +65,15 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">About</h1>
-    <p class="meta">
+    
+      <h1 class="entry-title">T6-oop-concepts</h1>
+    
+    
+      <p class="meta">
+        
 
 
 
@@ -81,12 +85,93 @@
   
 
 
-<time datetime="2012-07-24T03:16:00-05:00" pubdate data-updated="true"></time></p>
+<time datetime="2015-01-11T11:39:39-06:00" pubdate data-updated="true"></time>
+        
+      </p>
+    
   </header>
+
+
+<div class="entry-content"><p>Class methods are a super important part of the Ruby programming language.  They allow users to call a method on an instance of a class directly (e.g. String#length).  Length is a class method contained in the String class of Ruby.  Therefore, .length can be called on any string and will return the number of characters in that string.</p>
+
+<!--more-->
+
+
+<p>&lsquo;&rsquo;&lsquo;ruby</p>
+
+<h1>defining a class method</h1>
+
+<p>class Foo
+  def self.bar
+    &ldquo;This is a class method&rdquo;
+  end
+end</p>
+
+<p>Foo.bar   #=> This is a class method.</p>
+
+<h1>defining an instance method</h1>
+
+<p>class Foo
+  def bar
+    &ldquo;This is an instance method.&rdquo;
+  end
+end</p>
+
+<p>baz = Foo.new
+baz.bar #=> This is an instance method.
+&lsquo;&rsquo;&#8217;</p>
+
+<blockquote><p>Notice in the code above that we needed to create a new instance of the class Foo to call the instance method > bar.  In the first example, this wasn&rsquo;t necessary because we defined .bar as a class method.</p></blockquote>
+
+<p>It should be noted that this is not the only way to create instance or class methods in Ruby.  There are 3 ways to create each.  I only included the syntax I prefer here for the sake of brevity.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <p>Sample!</p>
+
+<span class="byline author vcard">Posted by <span class="fn">Chase Nutile</span></span>
+
+      
+
+
+
+
+
+
+
 
   
+
+
+<time datetime="2015-01-11T11:39:39-06:00" pubdate data-updated="true"></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://b0xw00d.github.io/blog/2015/01/11/t6-oop-concepts/" data-via="" data-counturl="http://b0xw00d.github.io/blog/2015/01/11/t6-oop-concepts/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/09/t5-ruby-classes/" title="Previous Post: t5-ruby-classes">&laquo; t5-ruby-classes</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2015/01/11/c6-stereotype-threat/" title="Next Post: c6-stereotype-threat">c6-stereotype-threat &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
 
 </div>
