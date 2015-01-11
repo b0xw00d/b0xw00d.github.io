@@ -97,29 +97,52 @@
 <!--more-->
 
 
-<p>&lsquo;&rsquo;&lsquo;ruby</p>
 
-<h1>defining a class method</h1>
 
-<p>class Foo
-  def self.bar
-    &ldquo;This is a class method&rdquo;
-  end
-end</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1">#defining a class method</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">Foo</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">bar</span>
+</span><span class='line'>    <span class="s2">&quot;This is a class method&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="no">Foo</span><span class="o">.</span><span class="n">bar</span>   <span class="c1">#=&gt; This is a class method.</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="c1">#defining an instance method</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">class</span> <span class="nc">Foo</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">bar</span>
+</span><span class='line'>    <span class="s2">&quot;This is an instance method.&quot;</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">baz</span> <span class="o">=</span> <span class="no">Foo</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'><span class="n">baz</span><span class="o">.</span><span class="n">bar</span> <span class="c1">#=&gt; This is an instance method.</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>Foo.bar   #=> This is a class method.</p>
-
-<h1>defining an instance method</h1>
-
-<p>class Foo
-  def bar
-    &ldquo;This is an instance method.&rdquo;
-  end
-end</p>
-
-<p>baz = Foo.new
-baz.bar #=> This is an instance method.
-&lsquo;&rsquo;&#8217;</p>
 
 <blockquote><p>Notice in the code above that we needed to create a new instance of the class Foo to call the instance method > bar.  In the first example, this wasn&rsquo;t necessary because we defined .bar as a class method.</p></blockquote>
 
