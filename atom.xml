@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-11T12:56:50-06:00</updated>
+  <updated>2015-01-11T13:01:16-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -31,11 +31,6 @@
     <updated>2015-01-11T11:39:39-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/11/t6-oop-concepts</id>
     <content type="html"><![CDATA[<p>Class methods are a super important part of the Ruby programming language.  They allow users to call a method on an instance of a class directly (e.g. String#length).  Length is a class method contained in the String class of Ruby.  Therefore, .length can be called on any string and will return the number of characters in that string.</p>
-
-<!--more-->
-
-
-
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -82,9 +77,12 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
+<!--more-->
+
+
 <blockquote><p>Notice in the code above that we needed to create a new instance of the class Foo to call the instance method > bar.  In the first example, this wasn&rsquo;t necessary because we defined .bar as a class method.</p></blockquote>
 
-<p>It should be noted that this is not the only way to create instance or class methods in Ruby.  There are 3 ways to create each.  I only included the syntax I prefer here for the sake of brevity.</p>
+<p>It should be noted that this is not the only way to create instance or class methods in Ruby.  There are 3 ways to create each.  I only included the syntax I prefer here for the sake of brevity.  Both types of method are extremely useful and learning to use both is an essential part of mastering the core concepts of Ruby.  Thanks for taking the time to read this!</p>
 ]]></content>
   </entry>
   
