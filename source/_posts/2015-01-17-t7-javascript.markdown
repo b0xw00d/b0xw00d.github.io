@@ -40,7 +40,7 @@ var bango = {
 		breed: "Shiba",
 		weight: "feather",
 		beCute: function(){
-		console.log(chirp.chirp.chirp.);
+		console.log("chirp.chirp.chirp.");
 		}
 	}
 
