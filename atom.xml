@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-25T13:01:45-06:00</updated>
+  <updated>2015-01-25T13:07:27-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -19,6 +19,14 @@
     <updated>2015-01-25T10:47:42-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/25/cheat-sheet</id>
     <content type="html"><![CDATA[<p><strong>Git Cheat Sheet</strong></p>
+
+<!--more-->
+
+
+<p><em>git init - creates new repository
+</em>git add . - stages all changes for commit
+<em>git commit -m &ldquo;commit message&rdquo; - commits staged files with a &ldquo;quick comment&rdquo;
+</em>git push - pushes all committed changes to a remote branch</p>
 ]]></content>
   </entry>
   
