@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-25T12:59:17-06:00</updated>
+  <updated>2015-01-25T13:01:45-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -18,7 +18,7 @@
     <link href="http://b0xw00d.github.io/blog/2015/01/25/cheat-sheet/"/>
     <updated>2015-01-25T10:47:42-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/25/cheat-sheet</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p><strong>Git Cheat Sheet</strong></p>
 ]]></content>
   </entry>
   
@@ -47,7 +47,7 @@
     <link href="http://b0xw00d.github.io/blog/2015/01/25/t8-tech/"/>
     <updated>2015-01-25T10:42:13-06:00</updated>
     <id>http://b0xw00d.github.io/blog/2015/01/25/t8-tech</id>
-    <content type="html"><![CDATA[<h2>What is Rails?</h2>
+    <content type="html"><![CDATA[<p><em><strong>What is Rails?</strong></em></p>
 
 <!--more-->
 
