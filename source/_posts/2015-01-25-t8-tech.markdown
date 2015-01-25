@@ -1,0 +1,17 @@
+---
+layout: post
+title: "t8-tech"
+date: 2015-01-25 10:42:13 -0600
+comments: true
+categories: 
+---
+>What is Rails?
+
+<!--more-->
+Rails is a popular full-stack web application framework that was created by David Heinemeier Hansson in 2005.  It pusts emphasis on writing DRY(don't repeat yourself) web apps using convention over configuration (CoC) and MVC architecture (model, view, controller).
+
+Convention over configuration means the programmer has less decisions to make when considering the organization and naming conventions of a web application.  For instance, if there is a class called Product in your application, Rails will automatically create a products table in the database.  This is a common naming convention and Rails will always follow convention unless otherwise notified by the programmer.
+
+Another popular coding philosophy followed in the Rails framework is that of "fat models, skinny controllers."  Which basically means the majority of the logic in a Rails application will live in the model rather than the controller.  This is another convention that makes writing good, DRY applications easy on the programmer.
+
+Since Rails was released in 2005 the Ruby language has soared to new heights.  Th popularity of Ruby is now larger than anyone expected in the 90s and this is largely because of the Rails framework.
