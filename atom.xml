@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-24T11:49:42-06:00</updated>
+  <updated>2015-01-25T12:58:04-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -12,6 +12,55 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[cheat-sheet]]></title>
+    <link href="http://b0xw00d.github.io/blog/2015/01/25/cheat-sheet/"/>
+    <updated>2015-01-25T10:47:42-06:00</updated>
+    <id>http://b0xw00d.github.io/blog/2015/01/25/cheat-sheet</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[c8-conflict]]></title>
+    <link href="http://b0xw00d.github.io/blog/2015/01/25/c8-conflict/"/>
+    <updated>2015-01-25T10:42:44-06:00</updated>
+    <id>http://b0xw00d.github.io/blog/2015/01/25/c8-conflict</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m just going to write this blog about the most recent conflict in my life.  Recently I had a conflict with a cohort-mate who is no longer with us.  I wrote a pretty dramatic blog about the situation last week and ended up deleting it out of embarassment.  This week I&rsquo;m gonna give it another go.  Hopefully I can more calmly assess my emotional response to this conflict and the part I played in it.  Here we go again!</p>
+
+<!--more-->
+
+
+<p>A couple weeks back someone from our cohort was acting extremely negative towards me.  This person was constantly belittling me and trying to make me feel stupid whenever we interacted.  My response was to double down and contact him twice as frequently and barrade him with overwhelming positivity.</p>
+
+<p>I regret taking this approach.  The problem here is that he made me feel very insecure and scared.  Because of my insecurity I decided to push him to work with me and help me.  I feel like this pushed him over the edge and caused a bunch of unneccessary drama.</p>
+
+<p>I worked very hard to get where I am today and my position at DBC felt immediately threatened by this person.  I felt like getting him &ldquo;on my side&rdquo; would benefit both of us greatly and I pushed too hard.</p>
+
+<p>In the future I&rsquo;ll walk away from situations like this.  I wish that&rsquo;s what I would have done.  I should have recognized that this persons behavior was toxic and worried about myself.  Instead, my ego caused me to push him over the edge.  He&rsquo;s no longer with us now and I think that outcome was inevitable.  I still can&rsquo;t help but feel like a played some part in it though.  I hope he finds his way.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[t8-tech]]></title>
+    <link href="http://b0xw00d.github.io/blog/2015/01/25/t8-tech/"/>
+    <updated>2015-01-25T10:42:13-06:00</updated>
+    <id>http://b0xw00d.github.io/blog/2015/01/25/t8-tech</id>
+    <content type="html"><![CDATA[<blockquote><p>What is Rails?</p></blockquote>
+
+<!--more-->
+
+
+<p>Rails is a popular full-stack web application framework that was created by David Heinemeier Hansson in 2005.  It pusts emphasis on writing DRY(don&rsquo;t repeat yourself) web apps using convention over configuration (CoC) and MVC architecture (model, view, controller).</p>
+
+<p>Convention over configuration means the programmer has less decisions to make when considering the organization and naming conventions of a web application.  For instance, if there is a class called Product in your application, Rails will automatically create a products table in the database.  This is a common naming convention and Rails will always follow convention unless otherwise notified by the programmer.</p>
+
+<p>Another popular coding philosophy followed in the Rails framework is that of &ldquo;fat models, skinny controllers.&rdquo;  Which basically means the majority of the logic in a Rails application will live in the model rather than the controller.  This is another convention that makes writing good, DRY applications easy on the programmer.</p>
+
+<p>Since Rails was released in 2005 the Ruby language has soared to new heights.  Th popularity of Ruby is now larger than anyone expected in the 90s and this is largely because of the Rails framework.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[c7-values]]></title>
