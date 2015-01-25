@@ -5,7 +5,7 @@ date: 2015-01-25 10:42:13 -0600
 comments: true
 categories: 
 ---
->What is Rails?
+##What is Rails?
 
 <!--more-->
 Rails is a popular full-stack web application framework that was created by David Heinemeier Hansson in 2005.  It pusts emphasis on writing DRY(don't repeat yourself) web apps using convention over configuration (CoC) and MVC architecture (model, view, controller).
