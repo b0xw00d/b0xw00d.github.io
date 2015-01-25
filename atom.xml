@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-25T13:12:15-06:00</updated>
+  <updated>2015-01-25T13:29:16-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -23,10 +23,27 @@
 <!--more-->
 
 
-<p>-git init - creates new repository
--git add . - stages all changes for commit
--git commit -m &ldquo;commit message&rdquo; - commits staged files with a &ldquo;quick comment&rdquo;
--git push - pushes all committed changes to a remote branch</p>
+<p>git init &ndash; creates new repository</p>
+
+<p>git status &ndash; shows all staged and unstaged changes in repo</p>
+
+<p>git add . &ndash; stages all changes for commit</p>
+
+<p>git commit -m &ldquo;commit message&rdquo; &ndash; commits staged files with comment</p>
+
+<p>git push &ndash; pushes all committed changes to a remote branch</p>
+
+<p>git fetch <strong>name</strong> &ndash; create and update tracking branches</p>
+
+<p>git remote -v &ndash; shows all remotes</p>
+
+<p>git remote add <strong>name</strong> URL &ndash; adds new remote</p>
+
+<p>git remote &ndash;delete <strong>name</strong> &ndash; deletes remote</p>
+
+<p>git checkout master &ndash; return to the master branch</p>
+
+<blockquote><p>any bold text should be surrounded by tag carrots</p></blockquote>
 ]]></content>
   </entry>
   
