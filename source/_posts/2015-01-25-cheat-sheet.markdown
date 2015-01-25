@@ -9,7 +9,10 @@ categories:
 <!--more-->
 
 *git init - creates new repository
+
 *git add . - stages all changes for commit
+
 *git commit -m "commit message" - commits staged files with a "quick comment"
+
 *git push - pushes all committed changes to a remote branch
 
