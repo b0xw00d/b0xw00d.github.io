@@ -4,7 +4,7 @@
   <title><![CDATA[Chase Nutile]]></title>
   <link href="http://b0xw00d.github.io/atom.xml" rel="self"/>
   <link href="http://b0xw00d.github.io/"/>
-  <updated>2015-01-30T14:25:52-06:00</updated>
+  <updated>2015-01-30T14:30:50-06:00</updated>
   <id>http://b0xw00d.github.io/</id>
   <author>
     <name><![CDATA[Chase Nutile]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[my new site]]></title>
+    <link href="http://b0xw00d.github.io/blog/2015/01/30/my-new-site/"/>
+    <updated>2015-01-30T14:26:46-06:00</updated>
+    <id>http://b0xw00d.github.io/blog/2015/01/30/my-new-site</id>
+    <content type="html"><![CDATA[<p>This is going to be a short blog post because I honestly don&rsquo;t have much to say at this moment.  I&rsquo;ll probably add more later.  Anyway, I created a new site with Octopress and you&rsquo;re looking at it right now.  The whole process was relatively painless.</p>
+
+<!--more-->
+
+
+<p>The reason I kept this one short is because I did this weeks ago and I honestly can&rsquo;t remember what I struggled with anymore.  I should have documented everything as I was going but you live and you learn, I suppose.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[c9-questions]]></title>
