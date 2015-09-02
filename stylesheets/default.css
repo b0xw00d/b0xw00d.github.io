@@ -1,6 +1,5 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
     #Contact p{ display: none; }
-    .twitter-timeline { width: 100%; }
 }
 
 html{
