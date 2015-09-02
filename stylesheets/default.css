@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-    #Contact p{ display: none; }
+    #Contact p{display: none;}
 }
 
 html{
@@ -99,11 +99,11 @@ ul a{
 }
 
 .technical a:hover{
-  color: blue;
+  color: steelblue;
 }
 
 .cultural a:hover{
-  color: red;
+  color: firebrick;
 }
 
 .technical li{
