@@ -1,1 +1,141 @@
-@import url("http://fonts.googleapis.com/css?family=PT+Mono|PT+Sans:400,400italic,700,700italic|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic,cyrillic-ext,latin-ext");*::selection{background:#000;color:#fff}*::-moz-selection{background:#000;color:#fff}*::-webkit-selection{background:#000;color:#fff}@media (min-width: 38rem){html{font-size:20px}}@media (min-width: 30rem){.pagination-item{float:left;width:50%}blockquote{padding-right:5rem;padding-left:1.25rem}}footer{margin-top:1rem;padding-top:1rem;border-top:1px solid #d3d3d3;font-size:.5rem}footer,header{text-align:center}header>nav{padding-bottom:.5rem;border-bottom:1px solid #d3d3d3}body>nav{overflow:hidden;margin-right:-1rem;margin-left:-1rem;text-align:center;font-family:"PT Sans",sans-serif}.pagination-item{display:block;padding:1rem}a{border-bottom:1px dotted;color:#000;text-decoration:none}a:hover,a:active{border-bottom:1px solid}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{background-color:#fff;color:#000;text-align:justify;font-size:1.5rem;font-family:"PT Serif",serif;line-height:1.5;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin-right:auto;margin-left:auto;padding-right:1rem;padding-left:1rem;max-width:1024px}h1,h2,h3,h4,h5,h6{font-family:"PT Sans",sans-serif;line-height:1.5rem}p{margin-top:0;margin-bottom:1rem}ul,ol,dl{margin-top:0;margin-bottom:1rem}dt{font-weight:bold}dd{margin-bottom:.5rem}hr{position:relative;margin:1.5rem 0;border:0;border-top:1px solid #d3d3d3;border-bottom:1px solid #d3d3d3}abbr{color:#000;text-transform:uppercase;font-weight:bold;font-size:85%}abbr[title]{cursor:help}blockquote{margin:.8rem 0;padding:.5rem 1rem;border-left:0.25rem solid #d3d3d3;color:#000}blockquote p:last-child{margin-bottom:0}img{display:block;padding-top:1rem;padding-bottom:1rem;margin-left:auto;margin-right:auto;max-width:100%;align:center}table{margin-bottom:1rem;width:100%;border:1px solid #000;border-collapse:collapse}td,th{padding:.25rem .5rem;border:1px solid #000}tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th{background-color:#fff}section{padding-top:4rem}time{margin-top:-.5rem;margin-bottom:1rem;font-family:"PT Sans",sans-serif}.categories{padding-top:2rem;padding-bottom:2rem;text-align:left;font-family:"PT Sans",sans-serif}
+@media screen and (max-width: 900px) {
+    #Contact p{ display: none; }
+    .twitter-timeline { width: 100%; }
+}
+
+html{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#arrow:hover{
+  transform: scale(1.1,1.1);
+}
+
+body{
+  background-image: url("../imgs/bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /*height: 100%;*/
+}
+
+a img{
+  margin-left: 48%;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+header{
+  border-bottom: solid firebrick .075em;
+}
+
+ul{
+  display: inline;
+}
+
+.social-media li{
+  display: inline-block;
+}
+
+.pages li{
+  display: inline;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-left: 2em;
+  padding-right: 1em;
+  border-right: solid .075em firebrick;
+}
+
+ul a{
+  color: black;
+  text-decoration: none;
+}
+
+.social-media{
+  margin-left: 0em;
+}
+
+.social-media a:hover img{
+  transform: scale(1.1,1.1);
+}
+
+.pages a:hover{
+  color: red;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#Home img{
+  float: left;
+  margin: 1em;
+  border-radius: 0.5em;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#Blog div{
+  text-align: center;
+}
+
+#Blog div ul{
+  padding-right: 4em;
+}
+
+#Blog div ul li{
+  padding-top: 1em;
+}
+
+#Blog a:hover img{
+  transform: rotate(-40deg);
+}
+
+.cultural{
+  /*padding-top: 1em;*/
+  padding-bottom: 2.6em;
+}
+
+.technical{
+  padding-top: 1em;
+}
+
+.technical a:hover{
+  color: blue;
+}
+
+.cultural a:hover{
+  color: red;
+}
+
+.technical li{
+  display: inline-block;
+  /*text-align: center;*/
+  margin-left: 2%;
+}
+
+.cultural li{
+  display: inline-block;
+  margin-left: 2%;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+#Contact p{
+  width: 50%;
+  float: right;
+  padding-right: 1em;
+}
+
+
+#Contact img{
+  float: right;
+}
+
+#Contact h3{
+  padding-top: 1em;
+}
+#footer-div{
+  width: 100%;
+  border-bottom: solid firebrick .075em;
+  margin-bottom: 1em;
+}
