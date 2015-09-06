@@ -18,15 +18,10 @@ a h5:hover{
   padding-top: 0.5em;
 }
 
-
-
 .brand-logo{
   margin-left: 0.5em;
   transform: rotate(-5deg);
 }
-
-/*.brand-logo:hover{
-}*/
 
 #top-bar{
   background-image: none;
@@ -87,6 +82,14 @@ h1:hover{
 
 @media only screen and (max-width: 800px) {
   .brand-logo{display: none;}
+  #index-banner{background-image: url("../images/spacey.jpg");}
+  #index-banner #skills{color: white;}
+  #index-banner #work{color: white;}
+  #index-banner h5{color: white;}
+  #index-banner.clicked{background-image: none;}
+  #index-banner.clicked #skills{color: black;}
+  #index-banner.clicked #work{color: black;}
+  #index-banner.clicked h5{color: black;}
 }
 
 #work-experience{
@@ -94,7 +97,6 @@ h1:hover{
 }
 
 #skills{
-  /*display: none;*/
   background-color: rgba(0, 0, 0, 0);
   border: none;
   width: auto;
@@ -104,7 +106,6 @@ h1:hover{
 }
 
 #work{
-  /*display: none;*/
   background-color: rgba(0, 0, 0, 0);
   border: none;
   width: auto;
@@ -115,10 +116,6 @@ h1:hover{
 
 table {
     border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
 }
 
 caption{
@@ -133,13 +130,20 @@ th{
 td, th{
   text-align: center;
   vertical-align: center;
-  padding: 1.25em;
+  padding: 1em;
 }
 
-
+#skills td,th{
+  padding-right: 3em;
+  padding-left: 3em;
+}
 
 #mobile-demo li{
   border-bottom: solid 1.5px #FFFDE6;
+}
+
+#mobile-demo li a{
+  color: white;
 }
 
 #chase_rogers{
