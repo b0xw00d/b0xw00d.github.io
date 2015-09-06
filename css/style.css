@@ -1,0 +1,147 @@
+.icon-block {
+  padding: 0 15px;
+}
+
+.chase-image{
+  width: 15em;
+  height: 15em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a h5:hover{
+  opacity: 0.7;
+}
+
+.social-media li{
+  border-left: solid 1.5px #FFFDE6;
+  padding-top: 0.5em;
+}
+
+
+
+.brand-logo{
+  margin-left: 0.5em;
+  transform: rotate(-5deg);
+}
+
+/*.brand-logo:hover{
+}*/
+
+#top-bar{
+  background-image: none;
+}
+
+#top-bar.clicked{
+  background-image: url("../images/grey-pixel.jpeg");
+}
+
+#index-banner{
+  z-index: 2;
+}
+
+#index-banner.clicked{
+  background-image: url("../images/spacey.jpg");
+}
+
+#index-banner.clicked #skills{
+  color: white;
+}
+
+#index-banner.clicked #work{
+  color: white;
+}
+
+#index-banner.clicked h5{
+  color: white;
+}
+
+h1:hover{
+  cursor: pointer;
+  transform: rotate(5deg);
+}
+
+.social-media li h3{
+  color: royalblue;
+  transform: rotate(-5deg);
+}
+
+#mobile-demo{
+  /*background-color: #E7E6E6;*/
+  background-image: url("../images/spacey.jpg");
+}
+
+.social-media a:hover img{
+  transform: rotate(-15deg);
+  /*transform: scale(1.1,1.1);*/
+}
+
+.row h2{
+  text-align: center;
+}
+
+@media only screen and (max-width: 1210px) {
+  .radio-video{display: none;}
+  .buzz-free-photo{display: none;}
+}
+
+@media only screen and (max-width: 800px) {
+  .brand-logo{display: none;}
+}
+
+#work-experience{
+  display: none;
+}
+
+#skills{
+  /*display: none;*/
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+#work{
+  /*display: none;*/
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+caption{
+  color: #EF6C00;
+}
+
+th{
+  text-decoration: bold;
+  color: #1465C0;
+}
+
+td, th{
+  text-align: center;
+  vertical-align: center;
+  padding: 1.25em;
+}
+
+
+
+#mobile-demo li{
+  border-bottom: solid 1.5px #FFFDE6;
+}
+
+#chase_rogers{
+  transform: rotate(-5deg);
+}
