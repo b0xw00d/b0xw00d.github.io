@@ -10,7 +10,7 @@
 }
 
 a h5:hover{
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .social-media li{
@@ -54,6 +54,12 @@ a h5:hover{
 h1:hover{
   cursor: pointer;
   transform: rotate(5deg);
+  /*transition: 0.4s;*/
+}
+
+h1{
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
 }
 
 .social-media li h3{
@@ -119,12 +125,12 @@ table {
 }
 
 caption{
-  color: #EF6C00;
+  color: #C05998;
 }
 
 th{
   text-decoration: bold;
-  color: #00685C;
+  color: #bebebe;
 }
 
 td, th{
@@ -153,4 +159,18 @@ td, th{
 #experience-button:hover{
   transform: scale(1.03,1.03);
   opacity: 0.9;
+  background-color: #91095E;
+}
+
+nav {
+  color: #fff;
+  background-color: #575959;
+}
+
+.btn-large{
+  background-color: #91095E;
+}
+
+strong{
+  color: #bebebe;
 }
