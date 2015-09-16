@@ -58,8 +58,8 @@ h1:hover{
 }
 
 h1{
-  -webkit-transition: -webkit-transform .6s ease-in-out;
-  transition: transform .6s ease-in-out;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
 }
 
 .social-media li h3{
@@ -70,11 +70,6 @@ h1{
 #mobile-demo{
   /*background-color: #E7E6E6;*/
   background-image: url("../images/spacey.jpg");
-}
-
-.social-media a:hover img{
-  transform: rotate(-15deg);
-  /*transform: scale(1.1,1.1);*/
 }
 
 .row h2{
@@ -125,12 +120,12 @@ table {
 }
 
 caption{
-  color: #C05998;
+  color: #43738A;
 }
 
 th{
   text-decoration: bold;
-  color: #bebebe;
+  color: #75AABA;
 }
 
 td, th{
@@ -159,18 +154,35 @@ td, th{
 #experience-button:hover{
   transform: scale(1.03,1.03);
   opacity: 0.9;
-  background-color: #91095E;
+  background-color: #90A678;
 }
 
 nav {
   color: #fff;
-  background-color: #575959;
+  background-color: #32586F;
 }
 
 .btn-large{
-  background-color: #91095E;
+  background-color: #90A678;
 }
 
 strong{
-  color: #bebebe;
+  color: #90A678;
+}
+
+nav .nav-wrapper i:hover{
+  transform: rotate(-15deg);
+}
+
+nav .nav-wrapper i{
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+
+#job-title{
+  color: #43738A;
+}
+
+a h5{
+  color: #90A678;
 }
