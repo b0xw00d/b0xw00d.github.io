@@ -5785,7 +5785,7 @@ ul.tabs li.tab {
   background-color: #FFFFFF;
   margin: 0px;
   /*margin-top: 30px;*/
-  min-width: 45px;
+  min-width: 60px;
   z-index: 1000;
   max-height: 60%;
   opacity: 0;
@@ -5798,7 +5798,7 @@ ul.tabs li.tab {
     line-height: 1.5rem; }
     .dropdown-content li:hover, .dropdown-content li.active {
       background-color: rgba(0, 0, 0, 0.06);
-      transform: scale(1.1, 1.1); }
+      transform: scale(1.05, 1.05); }
     .dropdown-content li > a, .dropdown-content li > span {
       display: block;
       padding: 1rem 1rem;
