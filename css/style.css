@@ -13,11 +13,6 @@ a h5:hover{
   opacity: 0.8;
 }
 
-.social-media li{
-  border-left: solid 1.5px #FFFDE6;
-  padding-top: 0.5em;
-}
-
 .brand-logo{
   margin-left: 0.5em;
   transform: rotate(-5deg);
@@ -60,11 +55,6 @@ h1:hover{
 h1{
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
-}
-
-.social-media li h3{
-  color: royalblue;
-  transform: rotate(-5deg);
 }
 
 #mobile-demo{
@@ -185,4 +175,8 @@ nav .nav-wrapper i{
 
 a h5{
   color: #90A678;
+}
+
+#dropdown1.up{
+  display:none;
 }
