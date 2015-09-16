@@ -83,6 +83,10 @@ h1{
   #index-banner.clicked h5{color: black;}
 }
 
+@media only screen and (min-width: 993px) {
+  #burger{display: none;}
+}
+
 #work-experience{
   display: none;
 }
@@ -160,11 +164,11 @@ strong{
   color: #90A678;
 }
 
-nav .nav-wrapper i:hover{
+nav .nav-wrapper li i:hover{
   transform: rotate(-15deg);
 }
 
-nav .nav-wrapper i{
+nav .nav-wrapper li i{
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
 }
@@ -177,6 +181,7 @@ a h5{
   color: #90A678;
 }
 
-#dropdown1.up{
-  display:none;
+#burger{
+  margin-left: 1em;
 }
+
