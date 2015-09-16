@@ -133,12 +133,21 @@ td, th{
   padding-left: 3em;
 }
 
+#spinner{
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+#spinner:hover{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 #chase_rogers{
   transform: rotate(-5deg);
 }
 
 #experience-button:hover{
-  transform: scale(1.03,1.03);
+  /*transform: scale(1.03,1.03);*/
   opacity: 0.9;
   background-color: #D49B7D;
 }
@@ -177,3 +186,6 @@ a h5{
   margin-left: 1em;
 }
 
+.footer-copyright{
+  background-color: #32586F;
+}
