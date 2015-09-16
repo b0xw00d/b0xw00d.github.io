@@ -133,14 +133,6 @@ td, th{
   padding-left: 3em;
 }
 
-#mobile-demo li{
-  border-bottom: solid 1.5px #FFFDE6;
-}
-
-#mobile-demo li a{
-  color: white;
-}
-
 #chase_rogers{
   transform: rotate(-5deg);
 }
@@ -148,7 +140,7 @@ td, th{
 #experience-button:hover{
   transform: scale(1.03,1.03);
   opacity: 0.9;
-  background-color: #90A678;
+  background-color: #D49B7D;
 }
 
 nav {
@@ -157,11 +149,11 @@ nav {
 }
 
 .btn-large{
-  background-color: #90A678;
+  background-color: #D49B7D;
 }
 
 strong{
-  color: #90A678;
+  color: #D49B7D;
 }
 
 nav .nav-wrapper li i:hover{
@@ -178,7 +170,7 @@ nav .nav-wrapper li i{
 }
 
 a h5{
-  color: #90A678;
+  color: #D49B7D;
 }
 
 #burger{
