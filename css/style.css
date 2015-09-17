@@ -69,6 +69,7 @@ h1{
 @media only screen and (max-width: 1210px) {
   .radio-video{display: none;}
   .buzz-free-photo{display: none;}
+  #work-experience iframe{display: none;}
 }
 
 @media only screen and (max-width: 800px) {
@@ -147,6 +148,10 @@ td, th{
   /*text-shadow: 1px 1px 1px #ccc;*/
 }
 
+#experience-button a{
+  color: white;
+}
+
 #experience-button:hover{
   /*transform: scale(1.03,1.03);*/
   opacity: 0.9;
@@ -191,3 +196,26 @@ a h5{
 .footer-copyright{
   background-color: #32586F;
 }
+
+#work-experience iframe{
+  width: 90%;
+  margin-left: 2em;
+  height: 1100px;
+}
+
+#resume-link{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume-link a{
+  font-size: 2.5em;
+  color: #D49B7D;
+}
+
+#resume-link a:hover{
+  opacity: 0.8;
+}
+
+
