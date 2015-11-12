@@ -2160,8 +2160,8 @@ ul.staggered-list li {
     text-align: center; } }
 
 footer.page-footer {
-  margin-top: 20px;
-  padding-top: 20px;
+  /*margin-top: 20px;*/
+  /*padding-top: 20px;*/
   background-color: #32586F; }
   footer.page-footer .footer-copyright {
     overflow: hidden;

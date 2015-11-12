@@ -22,15 +22,15 @@ a h5:hover{
   background-image: none;
 }
 
-#top-bar.clicked{
+/*#top-bar.clicked{
   background-image: url("../images/grey-pixel.jpeg");
-}
+}*/
 
 #index-banner{
   z-index: 2;
 }
 
-#index-banner.clicked{
+/*#index-banner.clicked{
   background-image: url("../images/spacey.jpg");
 }
 
@@ -44,7 +44,7 @@ a h5:hover{
 
 #index-banner.clicked h5{
   color: white;
-}
+}*/
 
 h1:hover{
   cursor: pointer;
@@ -195,6 +195,11 @@ a h5{
 
 .footer-copyright{
   background-color: #32586F;
+  margin: 0;
+}
+
+.page-footer{
+  margin-top: 0;
 }
 
 #work-experience iframe{
