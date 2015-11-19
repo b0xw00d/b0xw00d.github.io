@@ -33,7 +33,7 @@ svg {
   stroke-dashoffset: 28%;
 }
 .text-copy:nth-child(5) {
-  stroke: #D59C7B;
+  stroke: firebrick;
   stroke-dashoffset: 35%;
 }
 .text-copy:nth-child(6) {
@@ -41,7 +41,7 @@ svg {
   stroke-dashoffset: 42%;
 }
 .text-copy:nth-child(7) {
-  stroke: firebrick;
+  stroke: #555fff;
   stroke-dashoffset: 49%;
 }
 
