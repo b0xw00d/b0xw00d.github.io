@@ -33,7 +33,6 @@ a h5:hover{
 h1:hover{
   cursor: pointer;
   transform: rotate(5deg);
-  /*transition: 0.4s;*/
 }
 
 h1{
@@ -42,7 +41,6 @@ h1{
 }
 
 #mobile-demo{
-  /*background-color: #E7E6E6;*/
   background-image: url("../images/spacey.jpg");
 }
 
@@ -121,7 +119,6 @@ td, th{
 }
 #chase_rogers{
   transform: rotate(-5deg);
-  /*text-shadow: 1px 1px 1px #ccc;*/
 }
 
 #experience-button a{
@@ -129,7 +126,6 @@ td, th{
 }
 
 #experience-button:hover{
-  /*transform: scale(1.03,1.03);*/
   opacity: 0.7;
   background-color: firebrick;
 }
@@ -154,7 +150,6 @@ nav .nav-wrapper li i:hover{
 nav .nav-wrapper li i{
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
-  /*text-shadow: 1px 1px 1px #ccc;*/
 }
 
 #job-title{

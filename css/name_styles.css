@@ -3,7 +3,6 @@
 }
 
 svg {
-  // position: absolute;
   width: 100%;
   height: 100%;
 }
@@ -51,10 +50,3 @@ svg {
     stroke-dasharray: 80% 87.5%;
   }
 }
-
-// @keyframes stroke-offset {
-//   50% {
-//     stroke-dashoffset: 35%;
-//     stroke-dasharray: 0 87.5%;
-//   }
-// }
