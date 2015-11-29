@@ -22,10 +22,6 @@ a h5:hover{
   background-image: url("../images/spacey.jpg");
 }
 
-#top-bar.clicked{
-  background-image: none;
-}
-
 #index-banner{
   z-index: 2;
 }
