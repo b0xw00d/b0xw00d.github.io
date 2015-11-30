@@ -9,10 +9,6 @@
   margin-left: auto;
 }
 
-a h5:hover{
-  opacity: 0.8;
-}
-
 .brand-logo{
   margin-left: 0.5em;
   transform: rotate(-5deg);
@@ -20,28 +16,6 @@ a h5:hover{
 
 #top-bar{
   background-image: url("../images/spacey.jpg");
-}
-
-#index-banner{
-  z-index: 2;
-}
-
-h1:hover{
-  cursor: pointer;
-  transform: rotate(5deg);
-}
-
-h1{
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition: transform .8s ease-in-out;
-}
-
-#mobile-demo{
-  background-image: url("../images/spacey.jpg");
-}
-
-.row h2{
-  text-align: center;
 }
 
 @media only screen and (max-width: 1210px) {
@@ -58,52 +32,6 @@ h1{
   #burger{display: none;}
 }
 
-#work-experience{
-  display: none;
-}
-
-#skills{
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-}
-
-#work{
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-caption{
-  color: #43738A;
-}
-
-th{
-  text-decoration: bold;
-  color: #75AABA;
-}
-
-td, th{
-  text-align: center;
-  vertical-align: center;
-  padding: 1em;
-}
-
-#skills td,th{
-  padding-right: 3em;
-  padding-left: 3em;
-}
-
 #spinner{
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
@@ -112,9 +40,6 @@ td, th{
 #spinner:hover{
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
-}
-#chase_rogers{
-  transform: rotate(-5deg);
 }
 
 #experience-button a{
@@ -135,12 +60,9 @@ nav {
   background-color: firebrick;
 }
 
-strong{
-  color: #D49B7D;
-}
-
 nav .nav-wrapper li i:hover{
   transform: rotate(-15deg);
+  color: #FFE900;
 }
 
 nav .nav-wrapper li i{
@@ -150,10 +72,6 @@ nav .nav-wrapper li i{
 
 #job-title{
   color: #ffff;
-}
-
-a h5{
-  color: #D49B7D;
 }
 
 #burger{
@@ -168,12 +86,6 @@ a h5{
 .page-footer{
   margin-top: 0;
   background-image: url("../images/spacey.jpg");
-}
-
-#work-experience iframe{
-  width: 90%;
-  margin-left: 2em;
-  height: 1100px;
 }
 
 #resume-link{
