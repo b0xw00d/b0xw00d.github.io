@@ -13,8 +13,6 @@
 .chase-image{
   width: 15em;
   height: 15em;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .brand-logo{
@@ -31,6 +29,9 @@
   background-image: url("../images/spacey.jpg");
 }
 
+.nav-wrapper li i:hover{
+  opacity: 0.8;
+}
 
 @media only screen and (max-width: 800px) {
   .brand-logo{display: none;}
@@ -56,13 +57,8 @@
 }
 
 #experience-button:hover{
-  opacity: 0.7;
+  opacity: 0.8;
   background-color: midnightblue;
-}
-
-nav {
-  color: #fff;
-  background-color: #32586F;
 }
 
 .btn-large{
@@ -71,21 +67,6 @@ nav {
 
 #burger{
   margin-left: 1em;
-}
-
-#resume-link{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#resume-link a{
-  font-size: 2.5em;
-  color: #D49B7D;
-}
-
-#resume-link a:hover{
-  opacity: 0.8;
 }
 
 .svg-circles {
