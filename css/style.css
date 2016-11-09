@@ -2,6 +2,14 @@
   padding: 0 15px;
 }
 
+.container {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .chase-image{
   width: 15em;
   height: 15em;
@@ -15,14 +23,14 @@
 }
 
 #top-bar{
+  background: midnightblue;
+  position: fixed;
+}
+
+#top-bar.clicked {
   background-image: url("../images/spacey.jpg");
 }
 
-@media only screen and (max-width: 1210px) {
-  .radio-video{display: none;}
-  .buzz-free-photo{display: none;}
-  #work-experience iframe{display: none;}
-}
 
 @media only screen and (max-width: 800px) {
   .brand-logo{display: none;}
@@ -44,11 +52,12 @@
 
 #experience-button a{
   color: white;
+  background-color: midnightblue;
 }
 
 #experience-button:hover{
   opacity: 0.7;
-  background-color: firebrick;
+  background-color: midnightblue;
 }
 
 nav {
@@ -57,35 +66,11 @@ nav {
 }
 
 .btn-large{
-  background-color: firebrick;
-}
-
-nav .nav-wrapper li i:hover{
-  transform: rotate(-15deg);
-  color: #FFE900;
-}
-
-nav .nav-wrapper li i{
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-}
-
-#job-title{
-  color: #ffff;
+  background-color: midnightblue;
 }
 
 #burger{
   margin-left: 1em;
-}
-
-.footer-copyright{
-  background-color: #32586F;
-  margin: 0;
-}
-
-.page-footer{
-  margin-top: 0;
-  background-image: url("../images/spacey.jpg");
 }
 
 #resume-link{
@@ -103,4 +88,33 @@ nav .nav-wrapper li i{
   opacity: 0.8;
 }
 
+.svg-circles {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  width: 400px;
+}
 
+#circle-1 {
+  fill: firebrick;
+}
+
+#circle-2 {
+  fill: goldenrod;
+}
+
+#circle-3 {
+  fill: midnightblue;
+}
+
+p {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.fa.fa-envelope {
+  font-size: 1.60em;
+}
+
+.name-animation {
+  margin-bottom: 15px;
+}

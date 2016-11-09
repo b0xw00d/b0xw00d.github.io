@@ -16,31 +16,31 @@ svg {
           animation: stroke-offset 6s infinite ease-in-out;
 }
 .text-copy:nth-child(1) {
-  stroke: #360745;
+  stroke: firebrick;
   stroke-dashoffset: 7%;
 }
 .text-copy:nth-child(2) {
-  stroke: #D61C59;
+  stroke: goldenrod;
   stroke-dashoffset: 14%;
 }
 .text-copy:nth-child(3) {
-  stroke: #D9A588;
+  stroke: midnightblue;
   stroke-dashoffset: 21%;
 }
 .text-copy:nth-child(4) {
-  stroke: #EFEAC5;
+  stroke: midnightblue;
   stroke-dashoffset: 28%;
 }
 .text-copy:nth-child(5) {
-  stroke: firebrick;
+  stroke: midnightblue;
   stroke-dashoffset: 35%;
 }
 .text-copy:nth-child(6) {
-  stroke: #D59B7A;
+  stroke: midnightblue;
   stroke-dashoffset: 42%;
 }
 .text-copy:nth-child(7) {
-  stroke: #555fff;
+  stroke: darkorange;
   stroke-dashoffset: 49%;
 }
 
