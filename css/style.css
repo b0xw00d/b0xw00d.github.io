@@ -1,101 +1,84 @@
-.icon-block {
-  padding: 0 15px;
-}
+.icon-block { padding: 0 15px; }
 
 .container {
-  padding: 60px;
+  padding: 85px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.chase-image{
+.chase-image {
   width: 15em;
   height: 15em;
+  margin-bottom: 20px;
 }
 
-.brand-logo{
+.brand-logo {
   margin-left: 0.5em;
   transform: rotate(-5deg);
 }
 
-#top-bar{
+#top-bar {
   background: midnightblue;
   position: fixed;
 }
 
-#top-bar.clicked {
-  background-image: url("../images/spacey.jpg");
-}
+#top-bar.clicked { background-image: url("../images/spacey.jpg"); }
 
-.nav-wrapper li i:hover{
+.nav-wrapper li i:hover {
   opacity: 0.8;
 }
 
 @media only screen and (max-width: 800px) {
-  .brand-logo{display: none;}
+  .brand-logo { display: none; }
 }
 
 @media only screen and (min-width: 993px) {
-  #burger{display: none;}
+  #burger { display: none; }
 }
 
-#spinner{
+#spinner {
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
 }
 
-#spinner:hover{
+#spinner:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
-#experience-button a{
+#experience-button a {
   color: white;
   background-color: midnightblue;
 }
 
-#experience-button:hover{
+#experience-button:hover {
   opacity: 0.8;
   background-color: midnightblue;
 }
 
-.btn-large{
-  background-color: midnightblue;
-}
+.btn-large { background-color: midnightblue; }
 
-#burger{
-  margin-left: 1em;
-}
+#burger { margin-left: 1em; }
 
 .svg-circles {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: 25px;
   width: 400px;
 }
 
-#circle-1 {
-  fill: firebrick;
-}
+#circle-1 { fill: firebrick; }
 
-#circle-2 {
-  fill: goldenrod;
-}
+#circle-2 { fill: goldenrod; }
 
-#circle-3 {
-  fill: midnightblue;
-}
+#circle-3 { fill: midnightblue; }
 
 p {
   font-size: 22px;
   font-weight: bolder;
 }
 
-.fa.fa-envelope {
-  font-size: 1.60em;
-}
+.fa.fa-envelope { font-size: 1.60em; }
 
-.name-animation {
-  margin-bottom: 15px;
-}
+.name-animation { margin-bottom: 15px; }
