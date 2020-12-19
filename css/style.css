@@ -9,9 +9,13 @@
 }
 
 .chase-image {
-  width: 15em;
-  height: 15em;
-  margin-bottom: 20px;
+  width: 20em;
+  height: 20em;
+  margin-bottom: 50px;
+}
+
+.name {
+  color: midnightblue;
 }
 
 .brand-logo {
@@ -36,16 +40,6 @@
 
 @media only screen and (min-width: 993px) {
   #burger { display: none; }
-}
-
-#spinner {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-}
-
-#spinner:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
 }
 
 #experience-button a {
@@ -80,5 +74,3 @@ p {
 }
 
 .fa.fa-envelope { font-size: 1.60em; }
-
-.name-animation { margin-bottom: 15px; }
